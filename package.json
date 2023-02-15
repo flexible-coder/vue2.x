@@ -8,10 +8,11 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@fullcalendar/daygrid": "^5.3.0",
-    "@fullcalendar/interaction": "^5.3.0",
-    "@fullcalendar/timegrid": "^5.3.0",
-    "@fullcalendar/vue": "^5.3.0",
+    "@fullcalendar/core": "^6.1.4",
+    "@fullcalendar/daygrid": "^6.1.4",
+    "@fullcalendar/interaction": "^6.1.4",
+    "@fullcalendar/timegrid": "^6.1.4",
+    "@fullcalendar/vue": "^6.1.4",
     "axios": "^1.2.2",
     "core-js": "^3.6.5",
     "element-ui": "^2.15.12",
@@ -22,27 +23,10 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.13",
-    "@vue/cli-plugin-eslint": "~4.5.13",
     "@vue/cli-service": "~4.5.13",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
     "sass-loader": "^8.0.0",
     "vue-template-compiler": "^2.6.11"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
   },
   "browserslist": [
     "> 1%",
