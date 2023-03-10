@@ -14,6 +14,12 @@ const constantRoutes = [
         component: () => import("@/views/index"),
         meta: { title: "首页", icon: "shouye" },
       },
+      {
+        path: "vxe",
+        name: "vxe",
+        component: () => import("@/views/vxe"),
+        meta: { title: "vxe-table", icon: "shouye" },
+      },
     ],
   },
   {
