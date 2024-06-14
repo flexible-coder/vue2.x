@@ -1,6 +1,6 @@
 <template>
   <div :class="['sidebar', isCollapse && 'sidebar-fold']">
-    <logo :collapse="isCollapse" />
+    <!-- <logo :collapse="isCollapse" /> -->
     <el-scrollbar>
       <el-menu
         mode="vertical"

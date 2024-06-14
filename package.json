@@ -16,19 +16,19 @@
     "axios": "^1.2.2",
     "core-js": "^3.6.5",
     "element-ui": "^2.15.12",
-    "node-sass": "^4.14.1",
     "vue": "^2.6.11",
     "vue-router": "^3.5.3",
     "vuex": "^3.6.2",
-    "vxe-table": "^3.3.16",
+    "vxe-table": "^3.7.10",
     "vxe-table-plugin-element": "^1.11.4",
-    "xe-utils": "^3.4.0"
+    "xe-utils": "^3.5.27"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.13",
     "@vue/cli-service": "~4.5.13",
     "babel-eslint": "^10.1.0",
-    "sass-loader": "^8.0.0",
+    "sass": "1.53.0",
+    "sass-loader": "10.2.1",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [
